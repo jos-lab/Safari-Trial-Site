@@ -1,21 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Suez+One&display=swap');
 
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+*{
+    border-box: box-sizing
+    }*
 
 body {
-    margin: 0;
-    font-family:'Courier New', Courier, monospace;
-    line-height: 1.5;
+    background: hsl(94, 50%, 95%);
+    font-family: 
+
+
+
+
+}
+
+.nav-links {
+    float: right;
 }
 
 
-html {
-    scroll-behavior: smooth-scroll;
-}
+
+
+
 
 
 
