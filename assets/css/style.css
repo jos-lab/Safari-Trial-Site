@@ -1,7 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Suez+One&display=swap');
 
 
-.navbar ul {
+body {
+    font-family: 'Quicksand' Sans-serif;
+}
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+header {
+   
+}
+
+#intro {
+ max-width: 100%; 
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+/* .navbar ul { */
     margin: 0;
     padding: 0;
     list-style: none;      
