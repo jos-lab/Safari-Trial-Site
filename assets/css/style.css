@@ -2,33 +2,24 @@
 
 *{margin: 0;
   padding: 0;}
-body {
-    font-family: 'Quicksand' Sans-serif;
-}
 
-html,
-body,
-header,
-#intro {
-    height: 100%;
-}
-
-header {
-    margin: 0;
-   
-}
-
-#intro {
- max-width: 100%; 
-}
-
-.carousel-inner img {
- -webkit-filter: rgba(90%);
-  filter: rgb(90%); /* make all photos black and white */
-  width: 100%; /* Set width to 100% */
-  margin: auto;
   
+body {
+    overflow-x: hidden;
+    font-family: 'Quicksand' Sans-serif;
+    color: #222;
 }
+
+
+
+   
+
+
+
+
+.carousel-item {
+   height: 100vh;
+  }
 
 .carousel-caption h3 {
   color: #fff !important;
