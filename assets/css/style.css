@@ -9,6 +9,10 @@ body {
     color: #222;
 }
 
+.carousel-item img {
+    height: 100vh;
+}
+
 
 
    
